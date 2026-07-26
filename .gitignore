@@ -1,0 +1,31 @@
+# Logs and diagnostic reports
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+pnpm-debug.log*
+
+# Build outputs and compilation directories
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# Environment secrets and configurations
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Testing and coverage tools
+coverage/
+.nyc_output/
+.jest/
+
+# Operating system and IDE specifics
+.DS_Store
+Thumbs.db
